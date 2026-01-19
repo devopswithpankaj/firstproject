@@ -2,7 +2,7 @@ name: firstproject
 
 on:
    push:
-      branches: [main]
+      branches: [Main]
 jobs:
    testing:
      runs-on: ubuntu-latest
