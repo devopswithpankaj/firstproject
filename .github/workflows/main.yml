@@ -1,12 +1,13 @@
 name: firstproject
 
 on:
-   push:
-      branches: [Main]
+  schedule:
+    - cron: 33 13 * * *
+     
 jobs:
    testing:
      runs-on: ubuntu-latest
 
      steps:
-       - name: Pankaj
-         run: echo "Hello Pankaj Shukla"
+       - name: Time Test
+         run: echo "Hello Pankaj Shukla, Go Home 7:03PM"
