@@ -1,8 +1,8 @@
 name: firstproject
 
 on:
-  schedule:
-    - cron: 33 13 * * *
+  push:
+     branches: [Main]
      
 jobs:
    testing:
